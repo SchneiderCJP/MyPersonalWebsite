@@ -1,0 +1,243 @@
+<!-- Name: Schneider Campfort Jean-Pierre -->
+<!-- Project: Assignment #4 -->
+<!-- Date: 09/27/2021 -->
+<!-- Tested with Google Chrome Browser -->
+
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> Schneider Campfort Jean-Pierre Web Page </title>
+		<style type = "text/css">
+			body 		{background-image: url( Background_Image.jpg );	
+						background-position: center;
+						background-repeat: repeat;
+						background-attachment: fixed;
+						background-color: black;}		
+			.Schneider 	{text-align: center;
+						margin-left: auto;
+						margin-right: auto;
+						z-index: 0; }		
+			.bg_image 	{ position: fixed;
+						  top: 0px;
+						  left: 1240px;
+						  z-index: 1; }
+			.fg_image	{ position: fixed;
+						  top: 80px;
+						  left: 1288px;
+						  z-index: 2; }
+			nav			{font-weight: bold;
+						font-size: 18px;
+						text-align: center;
+						color: black;
+						border: none;
+						text-align: left;
+						margin-left: auto;
+						margin-right: auto;
+						width: 20em;
+						background-color: #e6f2ff; }
+			nav ul		{display: none;
+						list-style: none; 
+						margin-left: auto;
+						margin-right: auto;
+						padding:0; }
+			nav:hover	{font-weight: 500;
+						color: white;
+						text-decoration-line: underline;
+						background-color: #80bdff; }
+			nav:hover ul {display: block;}
+			nav ul li 	{border-top: 1px solid white;
+						background-color: transparent;
+						width: 20em;
+						text-align: center;
+						color: black; }
+			CSSbox      {width: 1px;
+						border: 4px solid lightblue;
+						padding: 40px;
+						margin: 630px;}
+			CSSbox2     {width: 1px;
+						border: 4px solid lightblue;
+						padding: 40px;
+						margin: 605px;}
+			
+		</style>
+	</head>
+	
+	<!--- https://commons.wikimedia.org/wiki/File:Background_Image.jpg for background image--->
+	
+	<body>
+	
+		<!--- https://commons.wikimedia.org/w/index.php?search=transparent&title=Special:MediaSearch&go=Go&type=image --->
+		<p> <img src = "Quizz_transparent.png" class = "fg_image"
+		                alt = "Foreground Image" /> 
+		</p>
+		
+		<!-- https://commons.wikimedia.org/w/index.php?search=cloud+transparent&title=Special:MediaSearch&go=Go&type=image --->
+		<p> <img src = "Background Image2.png" width = "300" class = "bg_image"
+		                alt = "Background Image" /> 
+		</p>
+		
+		<span class="Schneider">
+		<h1> Schneider Campfort Jean-Pierre Web Page </h1>
+		<hr>
+		<p> 
+			Learn more about Schneider and answer some questions you may have about him. <br>
+			<img src = "header pic.png" width = "1000" class = "pg_image" alt = "Art of Schneider">	<br>
+			Art created by: Schneider Campfort Jean-Pierre
+		</p>
+		
+		
+		<hr>
+		<h2> Schneider's Course Schedule </h2>
+		<hr>
+		</span>
+		
+		
+		<table border = "1" class = "Schneider"> 
+			<caption> <strong> Here is all of Schneider's current classes with the Course Title (1st column),
+			which days of the week the classes fall on (2nd column), and states if the class is online or in-person (3rd column) </strong> </caption>
+
+			<thead>
+				<tr>
+					<th> Course Title </th>
+					<th> Days of The Week </th>
+					<th> Online or In-Person </th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td> Organization of Programming Language </td>
+					<td> Tuesdays and Thursdays </td>
+					<td> In-Person </td>
+				</tr>
+				<tr>
+					<td> Web Programming and Design </td>
+					<td> Tuesdays and Thursdays </td>
+					<td> In-Person </td>
+				</tr>
+				<tr>
+					<td> Theatre History </td>
+					<td> N/A </td>
+					<td> Online </td>
+				</tr>
+				<tr>
+					<td> Data Structures </td>
+					<td> Tuesdays and Thursdays </td>
+					<td> Online </td>
+				</tr>
+				<tr>
+					<td> Calculus II </td>
+					<td> Tuesdays and Thursdays </td>
+					<td> In-Person </td>
+				</tr>
+			</tbody>
+		</table>
+			
+		
+		<span class="Schneider">
+		<hr>
+		<h2> Schneider's Frequently Visited Websites </h2>
+		<hr>
+		
+		<p> <strong> Click a link to visit that web site. </strong> </p>
+		
+		</span>
+		<ul class = "Schneider"> 
+			<li> <a href = "https://www.netflix.com/"> Netflix </a> </li>
+			<li> <a href = "https://www.disneyplus.com/"> Disney+ </a> </li>
+			<li> <a href = "https://www.hulu.com/"> Hulu </a> </li>
+			<li> <a href = "https://www.hbomax.com"> HBOMax </a> </li>
+		</ul>
+		
+		<span class = "Schneider" >
+		<hr>
+		<h2> Schneider's Favorite Foods </h2>
+		<hr>
+		</span>
+
+		<nav> Pizza
+			<ul>
+				<!--- https://commons.wikimedia.org/w/index.php?search=pizza&title=Special:MediaSearch&go=Go&type=image --->
+				<li><a> <img src = "640px-Pizza_(48835114221).jpg" width = "150" alt = "Pizza"> </a> </li>
+			</ul>
+		</nav>
+		<nav> Orange Chicken with Rice
+			<ul>
+				<!--- https://commons.wikimedia.org/w/index.php?search=spicy+chicken+sandwich&title=Special:MediaSearch&go=Go&type=image --->
+				<li>  <a> <img src = "640px-Orange_chicken_(4363046795).jpg" height = "150" alt = "Orange Chicken with Rice"> </a></li>
+			</ul>
+		</nav>
+		<nav> Mac and Cheese
+			<ul>	
+				<!--- https://commons.wikimedia.org/w/index.php?search=pineapple+juice&title=Special:MediaSearch&go=Go&type=image --->
+				<li>  <a> <img src = "Mac-and-cheese.jpg" height = "150" alt = "Mac and Cheese"> </a></li>
+			</ul>
+		</nav>
+		
+		<span class = "Schneider">
+		<hr>
+		<h2> Schneider's Previous On Stage Performances </h2>
+		<hr>
+		
+
+		<p>
+				Over the course of Schneider's acting career, he has participated in various on stage musical productions. Here is a few that he has to performed in:
+		</p>
+	
+
+		
+		<CSSBox>
+				<!--- https://commons.wikimedia.org/w/index.php?search=annie++logo&title=Special:MediaSearch&go=Go&type=image --->
+				<img src = "Annie-Franchise-Logo.png" height = "50" alt = "Annie">		
+		</CSSBox>
+		
+				<br>
+				<br>
+				<br>
+				<br>
+		<CSSBOX2>
+			
+				<!--- https://commons.wikimedia.org/w/index.php?search=legally+blonde+logo&title=Special:MediaSearch&go=Go&type=image --->
+		         <img src = "640px-Legally_Blonde_logo.png" height = "50" alt = "Legally Blonde">
+		</CSSBox2>
+		
+				<br>
+				<br>
+				<br>
+				<br>
+		
+		<hr>
+		<h2> One of Schneider's Favorite Songs </h2>
+		<hr>
+		
+		</span>
+		
+		
+		
+		<!--- https://www.youtube.com/watch?v=b0PpsQ3wcUc --->
+
+		<audio controls autoplay >
+			<source src="Gitchee Gitchee Goo with lyrics.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		
+	
+		
+	</body>
+	
+	<span class = "Schneider">
+	
+	<footer>
+		<hr>
+		<p> For feedback on the midterm please email to: <a href="mailto:sc2831@mynsu.nova.edu">College Email Address</a></p>
+	</footer>
+	
+	</span>
+	
+
+
+</html>
+	
